@@ -25,6 +25,7 @@ async function getData(){
         await driver.get("https://food.grab.com/sg/en/");
 
         const searchBar = await driver.findElement(By.id("location-input"));
+        searchBar.sendKeys("Kampong");
         if(searchBar){
             return true
         }else{
