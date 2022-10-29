@@ -1,0 +1,26 @@
+{
+  "name": "anakinassignment",
+  "version": "1.0.0",
+  "description": "1. go to https://food.grab.com/sg/en/",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AFFAN-AHMAD/AnakinAssignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AFFAN-AHMAD/AnakinAssignment/issues"
+  },
+  "homepage": "https://github.com/AFFAN-AHMAD/AnakinAssignment#readme",
+  "dependencies": {
+    "chromedriver": "^107.0.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "selenium-webdriver": "^4.5.0"
+  }
+}
