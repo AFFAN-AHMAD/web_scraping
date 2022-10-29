@@ -24,7 +24,7 @@ async function getData(){
         let driver = await new Builder().forBrowser(Browser.CHROME).build();
         await driver.get("https://food.grab.com/sg/en/");
 
-        const searchBar = await driver.findElement(By.css("ant-input"));
+        const searchBar = await driver.findElement(By.id("location-input"));
         if(searchBar){
             return true
         }else{
