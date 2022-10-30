@@ -19,23 +19,41 @@ app.get("/",async (req,res)=>{
 })
 
 async function getData(){
-
+let driver;
     try{
-        let driver = await new Builder().forBrowser(Browser.CHROME).build();
+        // driver
+         driver = await new Builder().forBrowser(Browser.CHROME).build();
+        // url to locate
         await driver.get("https://food.grab.com/sg/en/");
-
+        // searchbar
         const searchBar = await driver.findElement(By.id("location-input"));
-        searchBar.sendKeys("Kampong");
-        if(searchBar){
-            return true
-        }else{
-            return false
+        // enter data in the search bar
+        await searchBar.sendKeys("Kampong");
+
+        // click the search button
+        const seacrhButton = await driver.findElement(
+          By.className("ant-btn submitBtn___2roqB ant-btn-primary")
+        );
+            //  click the button
+        await seacrhButton.click();
+        
+        if (seacrhButton) {
+          return true;
+        } else {
+          return false;
         }
     }catch(err){
         console.log("err",err)
+    }finally{
+        // await driver.quit()
+        console.log("finally")
     }
 
 }
 
 
 app.listen(port,()=>{console.log(`server is running on http://localhost:${port}`);}) 
+
+
+
+
