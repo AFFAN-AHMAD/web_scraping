@@ -42,7 +42,7 @@ async function getData() {
   } catch (err) {
     console.log("err", err);
   } finally {
-    // await driver.quit()
+    await driver.quit()
     console.log("finally");
   }
 }
