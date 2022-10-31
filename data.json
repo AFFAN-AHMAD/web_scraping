@@ -1,0 +1,329 @@
+{
+  "recommendedMerchantGroups": [
+    {
+      "feature": "N",
+      "recommendedMerchants": [
+        {
+          "id": "4-CYTKLXJJCJKTCN",
+          "address": { "name": "The Coffee Bean \u0026 Tea Leaf - Nex" },
+          "latlng": { "latitude": 1.3504039, "longitude": 103.87271676877353 },
+          "distanceInKm": 2.997,
+          "merchantData": {
+            "cuisine": "Coffee \u0026 Tea, Breakfast \u0026 Brunch, Dessert, Halal",
+            "photo_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CYTKLXJJCJKTCN/hero/37997266f5a544c5a4ada75660d0d209_1648777871039027648.jpeg",
+            "photo_small_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CYTKLXJJCJKTCN/list/5f3b4639651b440399649264e8f6b0c0_1648777871112191408.jpg",
+            "icon_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CYTKLXJJCJKTCN/logo/a0933cf092f745eca237647b2ed6dd30_1620718803549063582.jpeg",
+            "estimated_delivery_time": 55,
+            "tax": "0",
+            "service_hours": {
+              "open": true,
+              "displayedHours": "00:00-23:59",
+              "sun": "00:00-23:59",
+              "mon": "00:00-23:59",
+              "tue": "00:00-23:59",
+              "wed": "00:00-23:59",
+              "thu": "00:00-23:59",
+              "fri": "00:00-23:59",
+              "sat": "00:00-23:59"
+            },
+            "rating": 4.5,
+            "vote_count": 2309,
+            "promo": {
+              "hasPromo": true,
+              "description": "50% off Vanilla Bean Oat Milk Latte"
+            },
+            "deliverBy": "GRAB",
+            "priceTag": 2
+          },
+          "merchantsEta": {
+            "merchantID": "4-CYTKLXJJCJKTCN",
+            "minETAInMinute": 55,
+            "maxETAInMinute": 55,
+            "distanceInMetre": 2997
+          },
+          "recsID": "5345b445819d43e9867bc71dfc6165a0",
+          "source": "NEWRECOMMENDATION"
+        },
+        {
+          "id": "4-C2NKCEDCACD3NJ",
+          "address": { "name": "Kimly Dim Sum - Upper Aljunied Lane" },
+          "latlng": { "latitude": 1.33430062, "longitude": 103.87876 },
+          "distanceInKm": 0.5077465076362535,
+          "merchantData": {
+            "cuisine": "Dim Sum, Snack, Chinese",
+            "photo_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-C2NKCEDCACD3NJ/hero/ab04d15329d34876b527d5df55b0251b_1618989282952254050.jpeg",
+            "photo_small_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-C2NKCEDCACD3NJ/list/1acdd0ba512b4546aa84d59ab079cef6_1618989277818091981.jpeg",
+            "icon_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-C2NKCEDCACD3NJ/logo/c3ef4c4aab52453dbf7a96aa27026159_1618989263283118673.jpeg",
+            "estimated_delivery_time": 35,
+            "tax": "0",
+            "service_hours": {
+              "open": true,
+              "displayedHours": "00:00-23:59",
+              "sun": "00:00-23:59",
+              "mon": "00:00-23:59",
+              "tue": "00:00-23:59",
+              "wed": "00:00-23:59",
+              "thu": "00:00-23:59",
+              "fri": "00:00-23:59",
+              "sat": "00:00-23:59"
+            },
+            "rating": 4.3,
+            "vote_count": 357,
+            "promo": { "hasPromo": true, "description": "$4.1 off Feast Set" },
+            "deliverBy": "GRAB",
+            "priceTag": 1
+          },
+          "merchantsEta": {
+            "merchantID": "4-C2NKCEDCACD3NJ",
+            "minETAInMinute": 35,
+            "maxETAInMinute": 35,
+            "distanceInMetre": 264
+          },
+          "recsID": "5345b445819d43e9867bc71dfc6165a0",
+          "source": "NEWRECOMMENDATION"
+        },
+        {
+          "id": "4-CZAJWCBALCLDEA",
+          "address": { "name": "Rochor Beancurd House - Geylang Road" },
+          "latlng": {
+            "latitude": 1.3149396032354588,
+            "longitude": 103.89064961528535
+          },
+          "distanceInKm": 3.455,
+          "merchantData": {
+            "cuisine": "Dessert, Snack, Drinks \u0026 Beverages, Islandwide Delivery",
+            "photo_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CZAJWCBALCLDEA/hero/a43e9688ae9e4c15ba2f8c80baf3170d_1585207952973017356.jpeg",
+            "photo_small_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CZAJWCBALCLDEA/list/a283c31d14144499a69b9416f404beb9_1585207879117211970.jpeg",
+            "estimated_delivery_time": 50,
+            "tax": "0",
+            "service_hours": {
+              "open": true,
+              "displayedHours": "00:00-23:59",
+              "sun": "00:00-23:59",
+              "mon": "00:00-23:59",
+              "tue": "00:00-23:59",
+              "wed": "00:00-23:59",
+              "thu": "00:00-23:59",
+              "fri": "00:00-23:59",
+              "sat": "00:00-23:59"
+            },
+            "rating": 4.5,
+            "vote_count": 1976,
+            "deliverBy": "GRAB",
+            "priceTag": 1
+          },
+          "merchantsEta": {
+            "merchantID": "4-CZAJWCBALCLDEA",
+            "minETAInMinute": 50,
+            "maxETAInMinute": 50,
+            "distanceInMetre": 3455
+          },
+          "recsID": "5345b445819d43e9867bc71dfc6165a0",
+          "source": "NEWRECOMMENDATION"
+        },
+        {
+          "id": "4-CY3KL63AUBUJFA",
+          "address": { "name": "Pizza Hut - Upper Paya Lebar Road" },
+          "latlng": { "latitude": 1.33971404, "longitude": 103.88557680000001 },
+          "distanceInKm": 0.853,
+          "merchantData": {
+            "cuisine": "Pizza, Halal, Fast Food, Western, Pasta",
+            "photo_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CY3KL63AUBUJFA/hero/21fc4ec7c4674866a08f96d191f4e6bf_1663581853254417801.jpg",
+            "photo_small_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CY3KL63AUBUJFA/list/27950683102a4feeb469e266bd27dd87_1663737053076606250.jpg",
+            "icon_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CY3KL63AUBUJFA/logo/73566181c17d405fb7f23663962dcb07_1591695185731496215.jpeg",
+            "estimated_delivery_time": 45,
+            "tax": "0",
+            "service_hours": {
+              "open": true,
+              "displayedHours": "00:00-01:00 11:00-23:59",
+              "sun": "00:00-00:30 11:00-23:59",
+              "mon": "00:00-01:00 11:00-23:59",
+              "tue": "00:00-01:00 11:00-23:59",
+              "wed": "00:00-01:00 11:00-23:59",
+              "thu": "00:00-00:30 11:00-23:59",
+              "fri": "00:00-00:30 11:00-23:59",
+              "sat": "00:00-00:30 11:00-23:59"
+            },
+            "rating": 4.1,
+            "vote_count": 974,
+            "promo": {
+              "hasPromo": true,
+              "description": "Enjoy Free delivery (cap at $4) during 3-5pm. No min. spend for GrabUnlimited subscribers, min spend of $15 otherwise"
+            },
+            "featuredText": "Featured",
+            "deliverBy": "GRAB",
+            "priceTag": 2
+          },
+          "merchantsEta": {
+            "merchantID": "4-CY3KL63AUBUJFA",
+            "minETAInMinute": 45,
+            "maxETAInMinute": 45,
+            "distanceInMetre": 853
+          },
+          "recsID": "5345b445819d43e9867bc71dfc6165a0",
+          "source": "NEWRECOMMENDATION"
+        },
+        {
+          "id": "4-CZJYWGCGLBBCE6",
+          "address": { "name": "Chao Yuan Gourmet - Upper Aljunied Lane" },
+          "latlng": { "latitude": 1.33412905, "longitude": 103.878586 },
+          "distanceInKm": 0.383,
+          "merchantData": {
+            "cuisine": "Local \u0026 Malaysian, Noodles, Chinese",
+            "photo_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CZJYWGCGLBBCE6/hero/2dd5811fd2304625bce73c441a8d393a_1620267715781053738.jpeg",
+            "photo_small_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CZJYWGCGLBBCE6/list/295227c456ac4811957505b01a2a89d4_1620267709944955820.jpeg",
+            "icon_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CZJYWGCGLBBCE6/logo/f114a9c48bf847589a0993a6846b44b1_1591599850398021954.jpg",
+            "estimated_delivery_time": 35,
+            "tax": "0",
+            "service_hours": {
+              "open": true,
+              "displayedHours": "00:00-23:59",
+              "sun": "00:00-23:59",
+              "mon": "00:00-23:59",
+              "tue": "00:00-23:59",
+              "wed": "00:00-23:59",
+              "thu": "00:00-23:59",
+              "fri": "00:00-23:59",
+              "sat": "00:00-23:59"
+            },
+            "rating": 4,
+            "vote_count": 489,
+            "promo": {
+              "hasPromo": true,
+              "description": "Enjoy Free delivery (cap at $4) during 3-5pm. No min. spend for GrabUnlimited subscribers, min spend of $15 otherwise"
+            },
+            "featuredText": "Featured",
+            "deliverBy": "GRAB",
+            "priceTag": 1
+          },
+          "merchantsEta": {
+            "merchantID": "4-CZJYWGCGLBBCE6",
+            "minETAInMinute": 35,
+            "maxETAInMinute": 35,
+            "distanceInMetre": 383
+          },
+          "recsID": "5345b445819d43e9867bc71dfc6165a0",
+          "source": "NEWRECOMMENDATION"
+        },
+        {
+          "id": "4-CZDVTX6JRNTCMA",
+          "address": { "name": "Julaiha Muslim Restaurant - Macpherson Road" },
+          "latlng": { "latitude": 1.332526, "longitude": 103.88455521325011 },
+          "distanceInKm": 1.26,
+          "merchantData": {
+            "cuisine": "Indian, Indonesian, Local \u0026 Malaysian",
+            "photo_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CZDVTX6JRNTCMA/hero/9ae5194527e94fcc82b6fdd897558716_1587285392211590169.jpg",
+            "photo_small_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CZDVTX6JRNTCMA/list/c1b41037aad34040a8a66d9a9460765f_1587285392042317814.jpg",
+            "icon_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CZDVTX6JRNTCMA/logo/c1b41037aad34040a8a66d9a9460765f_1587285392042317814.jpg",
+            "estimated_delivery_time": 45,
+            "tax": "0",
+            "service_hours": {
+              "open": true,
+              "displayedHours": "00:00-23:59",
+              "sun": "00:00-23:59",
+              "mon": "00:00-23:59",
+              "tue": "00:00-23:59",
+              "wed": "00:00-23:59",
+              "thu": "00:00-23:59",
+              "fri": "00:00-23:59",
+              "sat": "00:00-23:59"
+            },
+            "rating": 4.4,
+            "vote_count": 1771,
+            "deliverBy": "GRAB",
+            "priceTag": 2
+          },
+          "merchantsEta": {
+            "merchantID": "4-CZDVTX6JRNTCMA",
+            "minETAInMinute": 45,
+            "maxETAInMinute": 45,
+            "distanceInMetre": 1260
+          },
+          "recsID": "5345b445819d43e9867bc71dfc6165a0",
+          "source": "NEWRECOMMENDATION"
+        },
+        {
+          "id": "4-C2TWVLBWECCXNJ",
+          "address": { "name": "DLLM Lok Lok - The Crescent @ Kallang" },
+          "latlng": {
+            "latitude": 1.32887806843701,
+            "longitude": 103.87929386910227
+          },
+          "distanceInKm": 1.051,
+          "merchantData": {
+            "cuisine": "Snack, Local \u0026 Malaysian, Seafood",
+            "photo_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-C2TWVLBWECCXNJ/hero/f6ab079ca6414ee7af93d810b56adeb2_1665973177670420085.jpeg",
+            "photo_small_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-C2TWVLBWECCXNJ/list/2aaecbd1f38647758649b4d620fcbb3f_1621395206570593621.jpeg",
+            "icon_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-C2TWVLBWECCXNJ/logo/6fd728c71460422fb3b9349aa81ab06a_1621395201414912839.jpeg",
+            "estimated_delivery_time": 45,
+            "tax": "0",
+            "service_hours": {
+              "open": true,
+              "displayedHours": "00:00-03:00",
+              "sun": "00:00-03:00 18:00-23:59",
+              "mon": "00:00-03:00",
+              "tue": "18:00-23:59",
+              "wed": "00:00-03:00 18:00-23:59",
+              "thu": "00:00-03:00 18:00-23:59",
+              "fri": "00:00-03:00 18:00-23:59",
+              "sat": "00:00-03:00 18:00-23:59"
+            },
+            "rating": 4.1,
+            "vote_count": 443,
+            "deliverBy": "GRAB",
+            "priceTag": 2
+          },
+          "merchantsEta": {
+            "merchantID": "4-C2TWVLBWECCXNJ",
+            "minETAInMinute": 45,
+            "maxETAInMinute": 45,
+            "distanceInMetre": 1051
+          },
+          "recsID": "5345b445819d43e9867bc71dfc6165a0",
+          "source": "NEWRECOMMENDATION"
+        },
+        {
+          "id": "4-CYMCJ72CT2EYBA",
+          "address": { "name": "Smac Bbq - Kensington Square" },
+          "latlng": { "latitude": 1.3452767, "longitude": 103.8821746 },
+          "distanceInKm": 2.309,
+          "merchantData": {
+            "cuisine": "Chinese, Seafood, BBQ \u0026 Grill",
+            "photo_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CYMCJ72CT2EYBA/hero/78febfdb42b544a38eb0a23cde2fd763_1591182869427835324.jpeg",
+            "photo_small_href": "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/4-CYMCJ72CT2EYBA/list/75r-24bits-50kb-6f774173854e181d065c80b486256b7d57cce1e6b7e2bdb6f30fb5bdcb3eaa70-74d790e9e734422f853841d571a194e8_1563437862478735705.jpeg",
+            "estimated_delivery_time": 45,
+            "tax": "0",
+            "service_hours": {
+              "open": true,
+              "displayedHours": "00:00-01:30 14:00-23:59",
+              "sun": "00:00-01:30 14:00-23:59",
+              "mon": "00:00-01:30 14:00-23:59",
+              "tue": "00:00-01:30 14:00-23:59",
+              "wed": "00:00-01:30 14:00-23:59",
+              "thu": "00:00-01:30 14:00-23:59",
+              "fri": "00:00-01:30 14:00-23:59",
+              "sat": "00:00-01:30 14:00-23:59"
+            },
+            "rating": 4.3,
+            "vote_count": 332,
+            "promo": {
+              "hasPromo": true,
+              "description": "Enjoy Free delivery (cap at $4) during 3-5pm. No min. spend for GrabUnlimited subscribers, min spend of $15 otherwise"
+            },
+            "featuredText": "Featured",
+            "deliverBy": "GRAB",
+            "priceTag": 3
+          },
+          "merchantsEta": {
+            "merchantID": "4-CYMCJ72CT2EYBA",
+            "minETAInMinute": 45,
+            "maxETAInMinute": 45,
+            "distanceInMetre": 2309
+          },
+          "recsID": "5345b445819d43e9867bc71dfc6165a0",
+          "source": "NEWRECOMMENDATION"
+        }
+      ]
+    }
+  ]
+}

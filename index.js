@@ -5,7 +5,6 @@ const port = 8080;
 const webdriver = require("selenium-webdriver");
 const { Builder, By, Browser } = require("selenium-webdriver");
 const chromedriver = require("chromedriver");
-
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
@@ -22,9 +21,7 @@ async function getData() {
   let driver;
   try {
     // driver
-    driver = await new Builder()
-      .forBrowser(Browser.CHROME)
-      .build();
+    driver = await new Builder().forBrowser(Browser.CHROME).build();
     // url to locate
     await driver.get("https://food.grab.com/sg/en/");
     // searchbar
@@ -39,15 +36,9 @@ async function getData() {
     //  click the button
     await searchButton.click();
 
-      let loadMore = await driver.findElement(
-        By.className("ant-btn ant-btn-block")
-      )
-      await loadMore.click()
-    if (loadMore) {
-      return true;
-    } else {
-      return false;
-    }
+    let loadMore = await driver.findElement(
+      By.className("ant-btn ant-btn-block")
+    );
   } catch (err) {
     console.log("err", err);
   } finally {
@@ -55,7 +46,6 @@ async function getData() {
     console.log("finally");
   }
 }
-
 
 app.listen(port, () => {
   console.log(`server is running on http://localhost:${port}`);
