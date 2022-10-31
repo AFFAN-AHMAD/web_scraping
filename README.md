@@ -22,6 +22,9 @@
 
 https://www.selenium.dev/documentation/
 
+
+https://chromedevtools.github.io/devtools-protocol/
+
 ## resources required
 
 Selenium webdriver for js,
