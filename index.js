@@ -8,9 +8,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 const axios = require("axios");
 
+let count = 0;
 async function getData() {
   let driver;
-  let count = 0;
   try {
     // driver
     driver = await new Builder().forBrowser(Browser.CHROME).build();
