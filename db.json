@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "title": "McDonald's - Boat Quay",
+      "lat": 1.2857211372800634,
+      "lon": 103.84982956837393,
+      "id": 1
+    },
+    {
+      "title": "Canadian Pizza - Kampong Bahru Road",
+      "lat": 1.276267,
+      "lon": 103.835579,
+      "id": 2
+    },
+    {
+      "title": "Hua Zai Roasted Duck - Killiney Road",
+      "lat": 1.2979014532580015,
+      "lon": 103.83865234862984,
+      "id": 3
+    },
+    {
+      "title": "Palaniyappa Northern Indian Cuisine - Wellness Building 🏍",
+      "lat": 1.308661731,
+      "lon": 103.8538563,
+      "id": 4
+    },
+    {
+      "title": "The Great Punjab North Indian Cuisine - Jalan Besar",
+      "lat": 1.30935,
+      "lon": 103.85757,
+      "id": 5
+    },
+    {
+      "title": "Yigo Mart - Syed Alwi Road",
+      "lat": 1.309379471,
+      "lon": 103.8557424,
+      "id": 6
+    },
+    {
+      "title": "Curry Village Restaurant - Lim Teck Kim Road",
+      "lat": 1.273542,
+      "lon": 103.842583,
+      "id": 7
+    },
+    {
+      "title": "Pagi Floral - Crasco Building🏍",
+      "lat": 1.295313064,
+      "lon": 103.8554058,
+      "id": 8
+    }
+  ]
+}

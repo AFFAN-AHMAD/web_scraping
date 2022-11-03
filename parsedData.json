@@ -1,0 +1,60 @@
+{"data":[
+    props: {
+    ssrState: {
+      securityConfig: [Object],
+      subpathLanguage: 'en',
+      subpathCountry: 'SG',
+      countryConfig: [Object],
+      features: [Object],
+      featuresV2: [Array],
+      geolocation: [Object],
+      isWebAccess: true,
+      session: null,
+      buildID: 'pLqDm2FK6s~L4oo1yqujC',
+      apiKeyBrowser: '7917969678e14fe9b8a6dd859b431dda',
+      onelink: [Object]
+    },
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+    initialI18nStore: { en: [Object] },
+    initialLanguage: 'en',
+    i18nServerInstance: null,
+    pageProps: {
+      userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+      query: {},
+      routeState: [Object],
+      namespacesRequired: [Array]
+    },
+    initialReduxState: {
+      app: [Object],
+      user: [Object],
+      pageCheckout: [Object],
+      gfcError: [Object],
+      common: [Object],
+      geolocation: [Object],
+      pageHomeV2: [Object],
+      pageRestaurantsV2: [Object],
+      pageRestaurantDetail: [Object],
+      pageBlog: [Object],
+      pageBlogDetail: [Object],
+      basket: [Object],
+      order: [Object],
+      drawerManager: [Object],
+      pageChain: [Object],
+      impression: [Object],
+      ratingShowFlag: [Object]
+    }
+  },
+  page: '/',
+  query: {},
+  buildId: 'pLqDm2FK6s~L4oo1yqujC',
+  runtimeConfig: {
+    ENV: 'production',
+    APP_ORIGIN: 'https://food.grab.com',
+    APP_FOODWEB_API_BASE_URL: 'https://portal.grab.com/foodweb',
+    APP_FOODWEB_API_PROXY_URL: 'https://food.grab.com/proxy/foodweb',
+    APP_GTM_TRACKING_ID: 'GTM-KMVG85X',
+    APP_SENTRY_DSN: 'https://cc8dd16e52a44fd98408fe09be72cf9d@sentry.io/1429896'
+  },
+  dynamicIds: [ 'O3nn', 'cUIt', '9sGt', '9sGt', 'mJPL', 'mJPL' ]
+}
+]}

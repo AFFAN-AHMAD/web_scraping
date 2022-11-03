@@ -1,21 +1,12 @@
 const express = require("express");
 const app = express();
 const port = 8080;
-
 const webdriver = require("selenium-webdriver");
 const { Builder, By, Browser } = require("selenium-webdriver");
 const chromedriver = require("chromedriver");
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
-app.get("/", async (req, res) => {
-  try {
-    const data = await getData();
-    res.send(data);
-  } catch (error) {
-    console.log("err", error);
-  }
-});
+const axios = require("axios");
 
 async function getData() {
   let driver;
@@ -27,7 +18,9 @@ async function getData() {
     // searchbar
     const searchBar = await driver.findElement(By.id("location-input"));
     // enter data in the search bar
-    await searchBar.sendKeys("Kampong");
+    await searchBar.sendKeys(
+      "171 Kampong Ampat - 171 Kampong Ampat, Singapore, 368330"
+    );
 
     // click the search button
     const searchButton = await driver.findElement(
@@ -36,17 +29,37 @@ async function getData() {
     //  click the button
     await searchButton.click();
 
-    let loadMore = await driver.findElement(
-      By.className("ant-btn ant-btn-block")
-    );
+    let extractedData = await driver
+      .findElement(By.id("__NEXT_DATA__"))
+      .getAttribute("innerHTML")
+      .then((data) => {
+        let parsedData = JSON.parse(data);
+        // console.log(parsedData);
+
+        let dataRequired =
+          parsedData.props.initialReduxState.pageHomeV2.promotions;
+        console.log(dataRequired);
+        dataRequired.forEach((ele) => {
+          let obj = {};
+          obj.title = ele.name;
+          obj.lat = ele.latitude;
+          obj.lon = ele.longitude;
+          console.log("ele", ele);
+          console.log("obj", obj);
+          // pushing data using localhost
+          axios.post("http://localhost:7060/data",obj);
+        });
+      });
+
+      // 
   } catch (err) {
     console.log("err", err);
   } finally {
-    await driver.quit()
+    // await driver.quit();
     console.log("finally");
   }
-}
-
-app.listen(port, () => {
-  console.log(`server is running on http://localhost:${port}`);
-});
+};
+getData()
+// app.listen(port, () => {
+//   console.log(`server is running on http://localhost:${port}`);
+// });
