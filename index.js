@@ -10,6 +10,7 @@ const axios = require("axios");
 
 async function getData() {
   let driver;
+  let count = 0;
   try {
     // driver
     driver = await new Builder().forBrowser(Browser.CHROME).build();
@@ -51,7 +52,13 @@ async function getData() {
           axios.post("http://localhost:7060/data", obj);
         });
       });
-
+    let loadmore = await driver.findElement(By.className(ant - btn - block));
+    if (loadmore || count > 5) {
+      getData();
+      count++;
+    } else {
+      return;
+    }
     //
   } catch (err) {
     console.log("err", err);
@@ -60,3 +67,4 @@ async function getData() {
     console.log("finally");
   }
 }
+getData()

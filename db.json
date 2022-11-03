@@ -47,6 +47,54 @@
       "lat": 1.295313064,
       "lon": 103.8554058,
       "id": 8
+    },
+    {
+      "title": "McDonald's - Boat Quay",
+      "lat": 1.2857211372800634,
+      "lon": 103.84982956837393,
+      "id": 9
+    },
+    {
+      "title": "Canadian Pizza - Kampong Bahru Road",
+      "lat": 1.276267,
+      "lon": 103.835579,
+      "id": 10
+    },
+    {
+      "title": "Hua Zai Roasted Duck - Killiney Road",
+      "lat": 1.2979014532580015,
+      "lon": 103.83865234862984,
+      "id": 11
+    },
+    {
+      "title": "Palaniyappa Northern Indian Cuisine - Wellness Building 🏍",
+      "lat": 1.308661731,
+      "lon": 103.8538563,
+      "id": 12
+    },
+    {
+      "title": "The Great Punjab North Indian Cuisine - Jalan Besar",
+      "lat": 1.30935,
+      "lon": 103.85757,
+      "id": 13
+    },
+    {
+      "title": "Yigo Mart - Syed Alwi Road",
+      "lat": 1.309379471,
+      "lon": 103.8557424,
+      "id": 14
+    },
+    {
+      "title": "Pagi Floral - Crasco Building🏍",
+      "lat": 1.295313064,
+      "lon": 103.8554058,
+      "id": 15
+    },
+    {
+      "title": "Holly Wine - Beach Road 🏍",
+      "lat": 1.2954027672784567,
+      "lon": 103.85525234618852,
+      "id": 16
     }
   ]
 }
