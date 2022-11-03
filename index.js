@@ -46,20 +46,17 @@ async function getData() {
           obj.lon = ele.longitude;
           console.log("ele", ele);
           console.log("obj", obj);
-          // pushing data using localhost
-          axios.post("http://localhost:7060/data",obj);
+
+          // pushing data using localhost to db.json
+          axios.post("http://localhost:7060/data", obj);
         });
       });
 
-      // 
+    //
   } catch (err) {
     console.log("err", err);
   } finally {
-    // await driver.quit();
+    await driver.quit();
     console.log("finally");
   }
-};
-getData()
-// app.listen(port, () => {
-//   console.log(`server is running on http://localhost:${port}`);
-// });
+}
