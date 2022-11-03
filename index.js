@@ -9,7 +9,7 @@ app.use(express.json());
 const axios = require("axios");
 
 let count = 0;
-async function getData() {
+async function callFucntion() {
   let driver;
   try {
     // driver
@@ -29,35 +29,12 @@ async function getData() {
     );
     //  click the button
     await searchButton.click();
-
-    let extractedData = await driver
-      .findElement(By.id("__NEXT_DATA__"))
-      .getAttribute("innerHTML")
-      .then((data) => {
-        let parsedData = JSON.parse(data);
-        // console.log(parsedData);
-
-        let dataRequired =
-          parsedData.props.initialReduxState.pageHomeV2.promotions;
-        console.log(dataRequired);
-        dataRequired.forEach((ele) => {
-          let obj = {};
-          obj.title = ele.name;
-          obj.lat = ele.latitude;
-          obj.lon = ele.longitude;
-          console.log("ele", ele);
-          console.log("obj", obj);
-
-          // pushing data using localhost to db.json
-          axios.post("http://localhost:7060/data", obj);
-        });
-      });
-    let loadmore = await driver.findElement(By.className(ant - btn - block));
-    if (loadmore || count > 5) {
-      await loadmore.click()
+    getData(driver);
+    let loadmore = await driver.findElement(By.className("ant-btn-block"));
+    while (loadmore && count <= 5) {
+      await loadmore.click();
+      getData(driver);
       count++;
-    } else {
-      return;
     }
     //
   } catch (err) {
@@ -67,4 +44,29 @@ async function getData() {
     console.log("finally");
   }
 }
-getData()
+callFucntion();
+
+async function getData(driver) {
+  await driver
+    .findElement(By.id("__NEXT_DATA__"))
+    .getAttribute("innerHTML")
+    .then((data) => {
+      let parsedData = JSON.parse(data);
+      // console.log(parsedData);
+
+      let dataRequired =
+        parsedData.props.initialReduxState.pageHomeV2.promotions;
+      console.log(dataRequired);
+      dataRequired.forEach((ele) => {
+        let obj = {};
+        obj.title = ele.name;
+        obj.lat = ele.latitude;
+        obj.lon = ele.longitude;
+        console.log("ele", ele);
+        console.log("obj", obj);
+
+        // pushing data using localhost to db.json
+        axios.post("http://localhost:7060/data", obj);
+      });
+    });
+}
