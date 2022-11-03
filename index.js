@@ -54,6 +54,7 @@ async function getData() {
       });
     let loadmore = await driver.findElement(By.className(ant - btn - block));
     if (loadmore || count > 5) {
+      await loadmore.click()
       getData();
       count++;
     } else {
